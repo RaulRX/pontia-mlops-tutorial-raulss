@@ -1,4 +1,6 @@
 # --- ML & data artifacts ---
+mlruns/
+artifacts/
 models/
 *.log
 *.h5
@@ -44,10 +46,6 @@ ENV/
 # --- Experiment configs ---
 *.tfvars
 *.tfplan
-
-# --- MLflow cache (if used) ---
-mlruns/
-mlartifacts/
 
 # --- VSCode ---
 .vscode/
